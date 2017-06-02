@@ -1,0 +1,246 @@
+
+<html>
+<head>
+<title>ブレイブログ</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" href="devlog.css" type="text/css">
+<script type="text/javascript" src="datatables.js"></script><script type="text/javascript">
+
+window.onload = function(){
+	SetListHeight("chatdata","bravelog-body");
+}
+
+jQuery(function($){
+$("#foo-table").DataTable();
+});
+
+
+</script>
+<link rel="stylesheet" href="reset.css" type="text/css">
+<link rel="stylesheet" href="datatables.css" type="text/css">
+<link rel="stylesheet" href="common.css" type="text/css">
+<link rel="stylesheet" href="index.css" type="text/css">
+<script type="text/javascript" src="tab.js"></script></head>
+<body id="bravelog-body">
+<div id="header">
+<div id="header-area">
+  <a href="index" id ="logo">ブレイブログ</a>
+  <ul id ="header-navigation">
+    <li><a href="devlog.html">開発ログ</a></li>
+    			<li><a href="login">ログイン</a></li>    <!--
+    <li><a href="">お問合せ</a></li>
+-->
+  </ul>
+</div>
+</div>
+<div id="navigation">
+	<ul>
+	<li id="bravelog"><a href="index">ブレイブログ<span>BraveLog</span></a>
+	<li id="chart"><a href="">チャート<span>Chart</span></a>
+	<li id="data"><a href="">データ<span>Data</span></a>
+	<li id="information"><a href=""><span></span></a>
+</ul>
+</div>
+<div id="container">
+	<div id="contents">
+			
+
+<table id="tb-layout">
+	<tr>
+		<td class="tb-left">
+			<div id="devlog">
+				<h3>開発ログ</h3>
+				<dl>
+					<dt>2017/03/28</dt>
+					<dd><a href="devlog-170328">&nbsp;忍者ジョブに対応しました。</a></dd>
+			<!--				<dt>2016/11/25</dt>
+					<dd><a href="devlog/">&nbsp;本サイトのご利用にあたって</a></dd>-->
+				</dl>
+				<div id="past-news"><a href="devlog" class="arrow-link">&nbsp;過去の開発ログはこちらから</a></div>
+			</div>
+			<div id="battlelog">
+				<h3>バトルログ</h3>
+				<p>コピーしたバトルログをそのまま貼り付けてください。</p>
+				<form method="post" action="battlelog">
+					<textarea name="battle_log" rows="15" cols="48"></textarea>
+					<input type="submit" name="next" class="l-button" value="ブレイブログ" >
+				</form>
+			</div>
+	</td>
+		<td class="tb-right">
+		<div id="chatdata">
+			<h3>チャートデータ</h3>
+		<!--
+			<table>
+				<thead>
+					<tr>
+						<th>対戦日</th><th>ボス名</th><th>共闘/ソロ</th><th>攻撃回数</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		-->
+		<table id="foo-table" class="table table-bordered">
+			<thead>
+				<tr>
+					<th>対戦日</th>
+					<th>ログ状況</th>
+					<th>レベル</th>
+					<th>ボス名</th>
+					<th>ユーザー</th>
+					<th>平均ダメージ数</th>
+					<th>最大ダメージ数</th>
+					<th>メンバー数</th>
+					<th>動</th>
+					<th>ブ</th>
+					<th>コ</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>17-02-01 12:01</td>
+					<td>完全</td>
+					<td>155</td>
+					<td>ロックオーガ</td>
+					<td>たろう</td>
+					<td>107,215</td>
+					<td>407,215</td>
+					<td>4人</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>17-02-01 12:02</td>
+					<td>完全</td>
+					<td>155</td>
+					<td>ロックオーガ</td>
+					<td>たろう</td>
+					<td>131,215</td>
+					<td>431,215</td>
+					<td>4人</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>17-02-01 12:03</td>
+					<td>完全</td>
+					<td>155</td>
+					<td>ロックオーガ</td>
+					<td>たろう</td>
+					<td>105,215</td>
+					<td>405,215</td>
+					<td>4人</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>17-02-01 12:04</td>
+					<td>完全</td>
+					<td>155</td>
+					<td>ロックオーガ</td>
+					<td>たろう</td>
+					<td>121,215</td>
+					<td>421,215</td>
+					<td>4人</td>
+					<td></td>
+					<td></td>
+					<td>〇</td>
+				</tr>
+				<tr>
+					<td>17-02-01 12:05</td>
+					<td>完全</td>
+					<td>155</td>
+					<td>ロックオーガ</td>
+					<td>たろう</td>
+					<td>111,215</td>
+					<td>411,215</td>
+					<td>4人</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>17-02-01 12:06</td>
+					<td>完全</td>
+					<td>155</td>
+					<td>ロックオーガ</td>
+					<td>たろう</td>
+					<td>131,215</td>
+					<td>441,215</td>
+					<td>4人</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>17-02-01 12:07</td>
+					<td>完全</td>
+					<td>155</td>
+					<td>ロックオーガ</td>
+					<td>たろう</td>
+					<td>121,215</td>
+					<td>421,215</td>
+					<td>4人</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>17-02-01 12:08</td>
+					<td>完全</td>
+					<td>155</td>
+					<td>ロックオーガ</td>
+					<td>たろう</td>
+					<td>151,215</td>
+					<td>601,215</td>
+					<td>4人</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>17-02-01 12:09</td>
+					<td>完全</td>
+					<td>155</td>
+					<td>ロックオーガ</td>
+					<td>たろう</td>
+					<td>51,215</td>
+					<td>201,215</td>
+					<td>4人</td>
+					<td></td>
+					<td>〇</td>
+					<td>〇</td>
+				</tr>
+				<tr>
+					<td>17-02-01 12:11</td>
+					<td>完全</td>
+					<td>125</td>
+					<td>ロックオーガ</td>
+					<td>たろう</td>
+					<td>91,215</td>
+					<td>301,215</td>
+					<td>4人</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+		<td>
+	</tr>
+</table>	
+</div>
+</div>
+<div id="footer">
+<div id="copyrights">
+	<p>&copy;BraveLog All Rights Reserved.</p>
+</div>
+</div>
+</body>
+</html>

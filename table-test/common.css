@@ -1,0 +1,438 @@
+@charset "UTF-8";
+
+
+/* 要素リセット */
+body
+{
+	width: 100%;
+	background-color: #F2F2F1;
+	text-align: center;
+	margin: 0px auto;
+	padding: 0;
+}
+
+img
+{
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: 0;
+	margin:0;
+	padding:0;
+}
+
+
+/* リンク文字色 */
+a:link {
+	color: #2C2523;
+
+	text-decoration: underline;
+}
+a:visited {
+	color: #686564;
+	text-decoration: underline;
+}
+a:hover {
+	color: #F7C05B;
+	text-decoration: none;
+}
+a:active {
+	color: #F7C05B;
+	text-decoration: none;
+}
+
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 2em;
+	padding-right: 0.1em;
+	padding-left: 0em;
+	line-height: 1.4;
+	text-align: left;
+}
+
+p.large {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: -0.1em;
+	color: #753B02;
+}
+
+h2
+{
+	margin:0 0 0 30px;
+}
+
+
+
+.font-pink {
+	color:#DA7185;
+}
+.font-skyblue {
+	color:#58B3D2;
+}
+
+/*--------------------------------------------------------
+  レイアウト設定
+--------------------------------------------------------*/
+
+#header
+{
+	width:960px;
+	margin: 0 auto;
+	padding: 0;
+	height: 60px;
+	background-color:#FFFFFF;
+	border-left: 1px solid #848181;
+	border-right:1px solid #848181;
+
+}
+
+#navigation
+{
+/*
+	position: absolute;
+	top: 62px;
+	left: 0px;
+*/
+	margin: 0 auto;
+	padding:0 0 0 0;
+	width:960px;
+	height: 60px;
+	overflow: hidden;
+	background-color:#ECEEEC;
+
+	background-color:#83C039;
+	border-left: 1px solid #848181;
+	border-right:1px solid #848181;
+
+}
+
+
+#container
+{
+	width: 960px;
+	margin: 0 auto;
+	background-color:#ffffff;
+	border-left: 1px solid #848181;
+	border-right:1px solid #848181;
+	padding-top:10px;
+}
+
+
+#footer
+{
+	clear:both;
+	width:960px;
+	height:30px;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+	background-color:#3D3E3D;
+	border-left: 1px solid #848181;
+	border-right:1px solid #848181;
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------
+  デザイン設定
+--------------------------------------------------------*/
+
+
+/* ヘッダー内パーツ */
+#header-area
+{
+	margin: 0 auto;
+	width:960px;
+	height: 60px;
+	overflow: hidden;
+	margin:0 auto;
+	background-color:#fff;
+
+}
+
+#header-area #header-title
+{
+	width:960px;
+	height: 20px;
+	margin: 0;
+	padding:5px 0 0px 5px;
+	text-align: left;
+	font-weight: normal;
+	line-height: 15px;
+	font-size: 14px;
+	color: #7FBE25;
+}
+
+#header-area #logo
+{
+	display: block;
+	overflow: hidden;
+	float:left;
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+	width: 220px;
+	height: 60px;
+	background-image : url(image/logo.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+
+}
+
+#header-area #header-navigation
+{
+	width: 450px;
+	height: 30px;
+	float:right;
+	margin:0;
+	padding:10px 10px 0 0;
+
+}
+#header-area #header-navigation li
+{
+	margin:0 5px 0 0;
+	padding:2px 5px 0 0;
+	float:right;
+	width: 80px;
+	height: 20px;
+	list-style-type: none;
+	text-indent: 15px;
+	text-align:left;
+	text-indent:20px;
+	border-right: 1px solid #C1C0C0;
+	font-size:12px;
+	font-weight: bold ;
+	background-color:#83C039;
+	border-radius:10px;
+
+}
+#header-area #header-navigation li a:hover
+{
+	display:block;
+	width:100%;
+	height:25px;
+	background-image : url(image/header-navigation-on.gif);
+	background-position: left 20px;
+	background-repeat: repeat-x;
+
+}
+#contents input:hover,
+#header-area #header-navigation li:hover
+{
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	-ms-filter: "alpha(opacity=80)";
+}
+
+
+
+#header-area #header-navigation li a{
+	color:#ffffff;
+	text-decoration: none;
+}
+
+#header-area #header-navigation #logout
+{
+	width:92px;
+}
+
+#navigation ul
+{
+	width:960px;
+	margin:0 auto 0 auto;
+	padding:0;
+	list-style-type: none;
+	overflow: hidden;
+	height: 60px;
+}
+
+
+#navigation li
+{
+	display: block;
+	float: left;
+	line-height: 45px;
+	overflow: hidden;
+	width: 239px;
+	height: 60px;
+	margin:0;
+	padding:0;
+
+	background-image : url(image/navigation-bg.png);
+	background-position: top left;
+	background-repeat: repeat-x;
+
+	color: #FFFFFF;
+	font-size:18px;
+
+	line-height: 18px;
+	padding: 0;
+	border-right: 1px solid #EDECEC;
+
+}
+
+#navigation li a,
+#navigation li strong
+{
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	height: 60px;
+}
+
+#navigation a:link
+{
+	color: #FFFFFF;
+	text-decoration: none;
+
+
+}
+
+#navigation a:visited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#navigation a:hover,
+#navigation li strong
+{
+
+	color: #75B12D;
+	background-color:#ffffff;
+	text-decoration: none;
+}
+
+
+
+
+#navigation a:active
+{
+	color: #75B12D;
+	background-color:#ffffff;
+	text-decoration: none;
+}
+
+
+
+
+#navigation a span
+{
+	width:40px;
+	height:60px;
+	margin:0 0 0 50px;
+	padding:0;
+	font-size:11px
+}
+
+#navigation #bravelog :hover,
+#navigation #chart :hover,
+#navigation #data :hover,
+#navigation #information :hover
+{
+	background-image : url(image/navigation-on.png);
+}
+
+
+#bravelog-body #navigation #bravelog,
+#chart-body #navigation #chart,
+#data-body #navigation #data ,
+#information-body #navigation #information
+
+{
+	background-image : url(image/navigation-on.png);
+}
+#bravelog-body #navigation #bravelog a,
+#chart-body #navigation #chart a,
+#data-body #navigation #data a,
+#information-body #navigation #information a
+
+{
+	color: #75B12D;
+}
+
+
+/*--------------------------------------------------------
+  共通レイアウトパーツ設定
+--------------------------------------------------------*/
+
+
+#container #contents
+{
+	height:100%;
+	padding-bottom:30px;
+	padding-bottom:0;
+}
+
+#contents #error_message
+{
+	margin:0px;
+	padding:30px 0 0 30px;
+}
+
+#contents form{
+	margin:10px 0 0 35px;
+}
+#contents .l-button
+{
+	color:#ffffff;
+	background-color:#83C039;
+	border:0;
+	margin:15px 0 30px 45px;
+	font-size:16px;
+	font-weight: bold ;
+	width:300px;
+	height:40px;
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	cursor:pointer;
+}
+
+
+#contents h3
+{
+	margin:20px 0 0 30px;
+	background-image : url(image/point.gif);
+	background-position: 0px 4px;
+	background-repeat: no-repeat;
+	text-indent: 18px;
+
+}
+
+
+.arrow{
+
+	background-image : url(image/arrow.png);
+	background-position: 6px 7px;
+	background-repeat: no-repeat;
+}
+
+a.arrow-link{
+	padding-left:5px;
+}
+
+#copyrights {
+	width: 950px;
+	height: 30px;
+	margin:0 auto 0 auto;
+	padding:0;
+
+}
+
+#copyrights p {
+	margin:0 5px 0 0;
+	padding:5px 0 0 0;
+	text-align: right;
+	line-height: 24px;
+	color: #FFFFFF;
+	font-size:12px;
+}

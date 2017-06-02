@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+#data-select
+{
+	margin:10px 10px 10px 0;
+	padding:10px 10px 10px 0;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+	font-size:12px;
+}
+table thead th {
+/*	width: 350px;*/
+	font-weight: normal;
+	vertical-align: top;
+/*	color: #7DB73C;*/
+	border-bottom: 3px solid #7DB73C;
+}
+table tbody th {
+/*	width: 350px;*/
+	padding: 5px;
+	font-weight: normal;
+	vertical-align: top;
+	border-bottom: 1px solid #E8F9D4;
+}
+table td {
+/*	width: 350px;*/
+	padding: 5px;
+	vertical-align: top;
+	border-bottom: 1px solid #E8F9D4;
+}
+
+/* 偶数行 */
+table tr:nth-child(2n) {    
+	background-color: #fff;
+}
+
+/* 奇数行 */
+
+table tr:nth-child(2n+1) {  
+	  background-color: white;
+}
+
+table tbody tr:hover {
+	background-color: #FFEED7; /* 行の背景色 */
+}
+
+
+#bravelog-body table tr th:nth-of-type(1) ,
+#bravelog-body table tr td:nth-of-type(1) 
+{
+	width:130px;
+	text-align: center;
+}
+
+#bravelog-body table tr th:nth-of-type(2) ,
+#bravelog-body table tr td:nth-of-type(2) 
+{
+	width:190px;
+	text-align: left;
+}
+
+#bravelog-body table tr th:nth-of-type(3) ,
+#bravelog-body table tr td:nth-of-type(3) 
+{
+	width:50px;
+	text-align: center;
+}
+
+#bravelog-body table tr th:nth-of-type(4) ,
+#bravelog-body table tr td:nth-of-type(4) 
+{
+	width:50px;
+	text-align: right;
+}
+
+
+
+
+
+#data-body table tr th:nth-of-type(1) ,
+#data-body table tr td:nth-of-type(1) 
+{
+	width:130px;
+	text-align: center;
+}
+
+#data-body table tr th:nth-of-type(2) ,
+#data-body table tr td:nth-of-type(2) 
+{
+	width:200px;
+	text-align: left;
+}
+
+#data-body table tr th:nth-of-type(3) ,
+#data-body table tr td:nth-of-type(3) 
+{
+	width:40px;
+	text-align: right;
+}
+
+#data-body table tr th:nth-of-type(4) ,
+#data-body table tr td:nth-of-type(4) 
+{
+	width:60px;
+	text-align: right;
+}
+
+#data-body table tr th:nth-of-type(5) ,
+#data-body table tr td:nth-of-type(5) 
+{
+	width:40px;
+	text-align: right;
+}
+
+#data-body table tr th:nth-of-type(6) ,
+#data-body table tr td:nth-of-type(6) 
+{
+	width:60px;
+	text-align: right;
+}
+
+#data-body table tr th:nth-of-type(7) ,
+#data-body table tr td:nth-of-type(7) 
+{
+	width:70px;
+	text-align: right;
+}
+
+
+

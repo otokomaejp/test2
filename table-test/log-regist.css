@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+
+
+
+#data-form fieldset
+{
+	width:600px;
+
+	border: 2px solid #41b8f2;
+	-moz-border-radius: 0 20px 0 0;
+	-webkit-border-radius: 0 20px 0 0;
+	border-radius: 0 20px 0 0;
+
+
+}
+#data-form legend
+{
+	padding:0 5px 0 5px;
+	font-size:18px;
+
+	-webkit-text-shadow: 2px 2px 3px #c0c0c0;
+	-moz-text-shadow: 2px 2px 3px #c0c0c0;
+	text-shadow: 2px 2px 3px #c0c0c0;
+	color:#41b8f2;
+
+}
+#data-form em
+{
+	color:#f00;
+	background-color:transparent;
+	font-weight:normal;
+	font-style:normal;
+}
+#data-form label
+{
+	display:block;
+	float:left;
+	width:200px;
+	text-align: left;
+}
+
+#data-form label.label-long
+{
+	width:600px;
+	text-align: left;
+
+}
+
+#data-form fieldset ol
+{
+	margin:0;
+	padding:0;
+}
+#data-form fieldset li
+{
+	list-style:none;
+	clear:both;
+	margin:0;
+	padding:15px 5px 15px 7px;
+	text-align: left;
+}
+
+#data-form fieldset li#user-id-box
+{
+	padding:15px 5px 3px 7px;
+}
+#data-form fieldset li#password-box
+{
+	padding:3px 5px 15px 7px;
+}
+#data-form fieldset  .friend-select-radio,
+#data-form fieldset  .friend-select-radio{
+	width:auto;
+}
+#data-form fieldset  .friend-select-text{
+	width:70px;
+	margin-left:5px;
+
+}
+
+
+
+#data-form fieldset fieldset
+{
+	border:none;
+	background:none;
+}
+#data-form fieldset fieldset legend
+{
+	font-weight:normal;
+	padding-left:0;
+}
+#data-form fieldset fieldset label
+{
+	float:none;
+	width:auto;
+}
+
+
+#status-info table
+{
+	font-size:12px;
+	font-weight:normal ;
+}
+#status-info h3,
+#save-info h3,
+#user-confirm h3
+{
+	text-align: left;
+}
+/*
+#friend-select,
+#friend-select2
+{
+	margin:5px 5px 5px 25px;
+
+}
+#friend-select li,
+#friend-select2 li{
+	display:inline-block;
+	margin:5px;
+	float:left;
+	text-align: left;
+}
+#status-info #game-mode
+{
+	display:inline-block;
+	width:620px;
+	text-align: left;
+	padding:5px;
+	margin:20px 0 0 30px;
+}
+*/
+#status-info #attribute-select
+{
+	width:auto;
+	text-align: left;
+	padding:5px;
+	margin:10px 0 0 5px;
+	
+}
+
+#basic-status,
+#bonus-slot
+{
+	width:200px;
+/*	background-color:#EFEFEF;*/
+	margin:20px 5px 20px 5px;
+	padding:5px;
+}
+
+
+#basic-status input,
+#bonus-slot input
+{
+	width:60px;
+}
+#basic-status th,
+#bonus-slot th
+{
+	text-align: center;
+	font-weight:normal ;
+	padding:5px;
+}
+
+
+#basic-status td,
+#bonus-slot td
+{
+	text-align: right;
+}
+
+#skill-list th
+{
+	text-align: center;
+	font-weight:normal ;
+	padding:5px;
+}
+
+#skill-list input
+{
+	width:60px;
+}
+
+table#skill-list
+{
+	width:560px;
+	margin:20px 5px 20px 5px;
+	padding:5px;
+}
+
+#skill-list td
+{
+	padding:5px;
+}
+
+

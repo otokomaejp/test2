@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+
+#battlelog
+{
+	width: 420px;
+	min-height:40%;
+	margin:0 5px 0 5px;
+	padding:0;
+	text-align: left;
+	float:left;
+}
+
+
+#chatdata h3
+{
+	margin:20px 0px 10px 0;
+	background-image : url(image/point.gif)!important;
+	background-position: 0px 5px;
+	background-repeat: no-repeat;
+}
+
+
+#battlelog p,
+#chatdata p
+{
+	margin:10px 0 0 35px;
+
+}
+
+
+
+#chatdata
+{
+	width: 450px;
+	min-height:40%;
+	margin:20px 0 0 0px;
+	padding:0;
+	text-align: left;
+	float:left;
+}
+
+#devlog {
+	width: 450px;
+	min-height:40%;
+	margin:20px 0 0 0px;
+	padding:0;
+	text-align: left;
+	float:left;
+}
+
+#devlog .arrow-link{
+	background-image : url(image/arrow.png)!important;
+	background-position: 3px 22px!important;
+	background-repeat: no-repeat;
+}
+#bravelog-body #devlog .arrow-link{
+	background-position: 3px 10px!important;
+}
+
+
+
+table {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+	font-size:12px;
+}
+table thead th {
+	font-weight: normal;
+	vertical-align: top;
+	border-bottom: 3px solid #7DB73C;
+}
+table tbody th {
+	padding: 5px;
+	font-weight: normal;
+	vertical-align: top;
+	border-bottom: 1px solid #E8F9D4;
+	margin:0;
+	padding:0;
+}
+table td {
+	padding: 5px;
+	vertical-align: top;
+	border-bottom: 1px solid #E8F9D4;
+	margin:0;
+	padding:0;
+}
+
+/* 偶数行 */
+table tr:nth-child(2n) {    
+	background-color: #fff;
+}
+
+/* 奇数行 */
+
+table tr:nth-child(2n+1) {  
+	  background-color: white;
+}
+
+table tbody tr:hover {
+/*	background-color: #FFEED7;*/ /* 行の背景色 */
+}
+
+
+#tb-layout
+{
+	margin:0;
+	padding:0;
+
+}
+
+#tb-layout tr
+{
+	margin:0;
+	padding:0;
+
+}
+
+#tb-layout .tb-left{
+	width:420px;
+	margin:0;
+	padding:0;
+	vertical-align:top;
+}
+
+#tb-layout .tb-right{
+	width:450px;
+	margin:0;
+	padding:0;
+}

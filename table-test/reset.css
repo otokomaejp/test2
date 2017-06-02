@@ -1,0 +1,57 @@
+html, body, div, span, object, h1, h2, h3, h4, a, font, img, q,strong, b, u,dl, dt, dd, ol, ul, li,
+form, label, 
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+	font-family:"メイリオ", sans-serif;  
+	font-size: 16px;  
+	line-height: 1.5;
+	color:#696261;
+
+/* -webkit-text-size-adjustは、フォントサイズの自動調整を停止。ランドスケープ（横向き）で表示させた場合に、拡大されるのを停止目的 */
+	-webkit-text-size-adjust: none; /* フォントサイズ自動調整 */  
+}
+
+/* リンクをタップした際の色指定 */
+
+a {
+	-webkit-tap-highlight-color: rgba(200,200,555,.6);  
+}  
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.clearfix:after
+{ 
+	content: ".";
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
+}
+
